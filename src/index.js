@@ -1,5 +1,7 @@
+// eslint-disable-next-line
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
+// eslint-disable-next-line
 import { BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import './index.css';
 import App from './App';
@@ -8,7 +10,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
-
+// eslint-disable-next-line
 const Apple = () => {
     return (
         <div className="App">
