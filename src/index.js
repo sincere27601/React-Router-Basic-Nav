@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch, Link} from "react-router-dom";
 import './index.css';
@@ -10,7 +9,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 
-const App = () => {
+const Apple = () => {
     return (
         <div className="App">
             <nav>
