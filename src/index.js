@@ -10,7 +10,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 
-const Apple = () => {
+const App = () => {
     return (
         <div className="App">
             <nav>
@@ -26,9 +26,10 @@ const Apple = () => {
 
     
 
-
+const rootElement = document.getElementById('root');
 ReactDOM.render(
-    <render>
+    <Router>
        <App />
-        </render>, 
-        document.getElementById('root'));
+        </Router>, 
+        rootElement
+);      
